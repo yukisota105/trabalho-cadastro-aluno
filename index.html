@@ -4,86 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <title>cadastro Aluno</title>
+    <title>Cadastro Aluno</title>
 </head>
 <body>
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <label for="">Nome do aluno:</label>
+            <label for="campoNome">Nome do aluno:</label>
             <input type="text" class="form-control" id="campoNome">
 
-
-            <label for="">Ano de nascimento:</label>
+            <label for="campoAnoNasc">Ano de nascimento:</label>
             <input type="number" class="form-control" id="campoAnoNasc">
 
-            <label for="">CPF:</label>
+            <label for="campoCpf">CPF:</label>
             <input type="text" class="form-control" id="campoCpf">
 
-            <label for="">Endereco:</label>
+            <label for="campoEndereco">Endereço:</label>
             <input type="text" class="form-control" id="campoEndereco">
 
-            <label for="">Telefone:</label>
-            <input type="text" class="form-control" id="campoTelofone">
-            
-            <label for="">Numero de matricula:</label>
+            <label for="campoTelefone">Telefone:</label>
+            <input type="text" class="form-control" id="campoTelefone">
+
+            <label for="campoMatricula">Número de matrícula:</label>
             <input type="number" class="form-control" id="campoMatricula">
 
-            <label for="">Curso:</label>
+            <label for="campoCurso">Curso:</label>
             <input type="text" class="form-control" id="campoCurso">
-
 
             <button class="btn btn-primary mt-3" id="CadastroAluno">Cadastrar</button>
 
-            <h1>Nome: <span id="nome"> </span></h1>
-            <h2>Idade: <span id="idade"> </span></h2>
+            <h1>Nome: <span id="nome"></span></h1>
+            <h2>Idade: <span id="idade"></span></h2>
             <h2>Ano de nascimento: <span id="AnoNAsc"></span></h2>
-            <h2>CPF: <span id="cpf"> </span></h2>
-            <h2>Endereço: <span id="endereco"> </span></h2>
-            <h2>Telefone: <span id="telefone"> </span></h2>
-            <h2>Numero de matricula: <span id="Idade"> </span></h2>
-            <h2>Curso: <span id="curso"> </span></h2>
+            <h2>CPF: <span id="cpf"></span></h2>
+            <h2>Endereço: <span id="endereco"></span></h2>
+            <h2>Telefone: <span id="telefone"></span></h2>
+            <h2>Matrícula: <span id="matricula"></span></h2>
+            <h2>Curso: <span id="curso"></span></h2>
         </div>
         <div class="row">
             <div class="col-6">
-                <hr>
-                <h3>NOTA 1</h3>
-                <label for="">Nota 1:</label>
+                <label for="campoNota1">Nota 1:</label>
                 <input type="number" class="form-control" id="campoNota1">
             </div>
             <div class="col-6">
-                <hr>
-                <h3>NOTA 2</h3>
-                <label for="">Nota 2:</label>
+                <label for="campoNota2">Nota 2:</label>
                 <input type="number" class="form-control" id="campoNota2">
             </div>
-
             <div class="col-6">
-                <hr>
-                <h3>NOTA 3</h3>
-                <label for="">Nota 3:</label>
-                <input type="number" class="form-control" id="campoNota2">
+                <label for="campoNota3">Nota 3:</label>
+                <input type="number" class="form-control" id="campoNota3">
             </div>
-
             <div class="col-6">
-                <hr>
-                <h3>NOTA 4</h3>
-                <label for="">Nota 4:</label>
+                <label for="campoNota4">Nota 4:</label>
                 <input type="number" class="form-control" id="campoNota4">
-
-                
-
             </div>
-            <button class="btn btn-primary mt-3" id="CalcularMedia">Calcular media</button>
-            <h2>Média: <span id="Media"> </span></h2>
-
+            <button class="btn btn-success mt-3" id="CalcularMedia">Calcular Média</button>
+            <h2>Média: <span id="Media"></span></h2>
         </div>
-
     </div>
 </div>
 
-    <script src="./js/Aluno.js"></script>
-    <script src="./js/Pessoa.js"></script>
-    <script src="./js/Main.js"></script>
+<script src="./js/Pessoa.js"></script>
+<script src="./js/Aluno.js"></script>
+<script src="./js/Main.js"></script>
 </body>
 </html>
